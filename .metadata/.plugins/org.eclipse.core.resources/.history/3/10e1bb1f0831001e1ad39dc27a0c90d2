@@ -1,0 +1,11 @@
+package com.example.demo;
+
+import org.springframework.stereotype.Component;
+
+@Component("bk")
+public class Bike
+{
+	public void showbike()
+	{System.out.println("showbike methos of class bike");
+	}
+}

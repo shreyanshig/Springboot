@@ -1,0 +1,7 @@
+package com.manwebapp.demo;
+
+public class Student
+{
+	private String sname;
+	private int age;
+}

@@ -1,0 +1,8 @@
+package com.manwebapp.demo;
+
+public class Student
+{
+	int id;
+	String sname;
+	int age;
+}

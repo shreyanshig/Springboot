@@ -1,0 +1,5 @@
+package com.autowebapp.demo.controller;
+
+public class StudentController {
+
+}

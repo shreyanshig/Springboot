@@ -1,0 +1,20 @@
+package com.manwebapp.demo;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class ClientDataAsObject
+{
+	@RequestMapping("clientobject")
+	public ModelAndView home(Student s)
+	{
+		ModelAndView mv=new ModelAndView();
+		mv.setViewName("clientobject");
+		mv.addObject("obj",s);
+		return mv;
+		
+	}
+	
+}

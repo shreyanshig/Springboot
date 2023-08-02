@@ -1,0 +1,9 @@
+package com.autowebapp.demo.dao;
+import org.springframework.data.repository.CrudRepository;
+
+import com.autowebapp.demo.model.Student;
+
+public interface StudentRepo extends CrudRepository<Student,Integer>
+{
+	
+}
